@@ -1,0 +1,59 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url("https://ae01.alicdn.com/kf/HTB1B.6aPXXXXXaAaXXXq6xXFXXXK/Papel-de-parede-com-foto-personalizada-3d-fundo-de-parede-de-campo-de-futebol-decora-o.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+
+    text-align: center;
+    padding: 20px;
+  }
+
+  .page-title {
+
+    color:	#ffff;
+    margin: 0 0 5px;
+  }
+
+.page-logo {
+
+  width: 250px;
+
+}
+
+.alura-logo {
+    width: 45px;
+    position: absolute;
+    top: 18px;
+    right: 15px;
+  }
+
+  body > img {
+
+    margin: 0 10px;
+
+  }
+
+  img {
+
+    max-height: 250px;
+    border-radius: 5px;
+    position: flex;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    
+  }
+
+  img:hover {
+
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    
+  }
